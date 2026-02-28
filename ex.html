@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin: 0;
+        }
+.parent{
+    background-color: rgb(197, 161, 231);
+    padding:30px;
+    
+    text-align: center;
+    display: grid;
+    gap: 20px;
+    grid-template-columns:1fr 1fr  1fr;
+    grid-template-rows: 100px  100px  90px ;
+}
+.parent div{
+    background-color: rgb(214, 214, 13);
+    padding: 15px;
+
+    
+    
+}
+.image1{grid-column:1/3;grid-row: 1/3;}
+.image2{grid-column:3/4;grid-row:1/2 ;}
+.image3{grid-column: 3/4;grid-row: 2/3;}
+.image4{grid-column:1/2;grid-row: 3/4;}
+.image5{grid-column: 2/4;grid-row: 3/4}
+.image6{grid-column:1/2 ; grid-row: 4/5;}
+.image7{grid-column: 4/5;grid-row: 1/5;}
+
+    </style>
+</head>
+<body><div class="parent">
+    <div class="image1">image1</div>
+    <div class="image2">image2</div>
+    <div class="image3">image3</div>
+    <div class="image4">image4</div>
+    <div class="image5">image5</div>
+    <div class="image6">image6</div>
+    <div class="image7">image7</div>
+    <div class="image8">image8</div>
+    <div class="image9">image9</div>
+    </div>
+</body>
+</html>
